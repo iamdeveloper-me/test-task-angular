@@ -1,0 +1,54 @@
+table{
+  width: 100%;
+}
+
+.example-table-container {
+  position: relative;
+  max-height: 400px;
+  overflow: auto;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.container-fluid{
+  margin-top: 15px;
+}
+
+.example-container {
+  display: block;
+  overflow: auto;
+  position: relative;
+  max-height: 400px;
+
+  .mat-table {
+    max-width: 100%;
+    margin-bottom: 1rem;
+    display: table;
+    border-collapse: collapse;
+  }
+
+  .mat-row,
+  .mat-header-row {
+    display: table-row;
+  }
+
+  .mat-cell,
+  .mat-header-cell {
+    word-wrap: initial;
+    display: table-cell;
+    padding: 0px 15px;
+    line-break: unset;
+    width: 33%;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+  }
+}
+
+
+.mat-column-editors_choice{
+  text-align: center;
+}
